@@ -6,6 +6,6 @@ module.exports = {
   included: function(app) {
     this._super.included(app);
     
-    app.import(app.bowerDirectory + '/jquery.marquee/index.js');
+    app.import(app.bowerDirectory + '/jQuery.Marquee/jquery.marquee.js');
   }
 };
